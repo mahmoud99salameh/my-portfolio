@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+header{
+    background-color:ghostwhite;
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px  200px;
+    /* transition: 0.8s ease; */
+}
+/* header:hover{
+    transform: scale(1.1);
+} */
+.logo{
+    text-decoration: none;
+    color:blue;
+    text-transform:uppercase;
+    font-weight: 800;
+    font-size:larger;
+    
+}
+nav a{
+    text-decoration: none;
+    margin: 20px;
+    color:blue;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-size: medium;
+    transition: 0.25s ease
+
+}
+nav a:hover {
+    color: brown;
+}
+section{
+    padding: 100px 200px;
+
+}
+.main{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background-color: #2F2F2F;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 200 200'%3E%3Cdefs%3E%3ClinearGradient id='a' gradientUnits='userSpaceOnUse' x1='100' y1='33' x2='100' y2='-3'%3E%3Cstop offset='0' stop-color='%23000' stop-opacity='0'/%3E%3Cstop offset='1' stop-color='%23000' stop-opacity='1'/%3E%3C/linearGradient%3E%3ClinearGradient id='b' gradientUnits='userSpaceOnUse' x1='100' y1='135' x2='100' y2='97'%3E%3Cstop offset='0' stop-color='%23000' stop-opacity='0'/%3E%3Cstop offset='1' stop-color='%23000' stop-opacity='1'/%3E%3C/linearGradient%3E%3C/defs%3E%3Cg fill='%23292929' fill-opacity='0.6'%3E%3Crect x='100' width='100' height='100'/%3E%3Crect y='100' width='100' height='100'/%3E%3C/g%3E%3Cg fill-opacity='0.5'%3E%3Cpolygon fill='url(%23a)' points='100 30 0 0 200 0'/%3E%3Cpolygon fill='url(%23b)' points='100 100 0 130 0 100 200 100 200 130'/%3E%3C/g%3E%3C/svg%3E");
+    background-position: center;
+    background-attachment: fixed;
+}
+.main h2 {
+    color:azure;
+    font-size: 1.5em;
+    font-weight:bold;
+
+
+}
+.main h2 span {
+    display: inline-block;
+    margin-top: 15px;
+    color: blue;
+    font-size: 3em;
+    font-weight:bold;
+}
+.main h3{
+    display: inline-block;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    color: rgb(255, 255, 255);
+    font-size: 2em;
+    font-weight:bold;
+}
+.social-icons a{
+    color: aliceblue;
+    padding-right: 20px;
+    font-size: 25px;
+    
+
+}
+.social-icons i:hover{
+    transform: scale(2);
+}
+.social-icons i{
+    transition: 0.8s ease;
+}
+.main h3 span{
+    color: blue;
+    font-size:40px;
+    font-weight: bolder;
+    font-style: oblique;
+}
+.title{
+    margin-top: 15px;
+    color: blue;
+    font-size: 3em;
+    font-weight:bold;
+    text-align: center;
+}
+.about{
+    font-weight:500;
+    text-align: center;
+}
+.contactme{
+    background-color: #2F2F2F;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 200 200'%3E%3Cdefs%3E%3ClinearGradient id='a' gradientUnits='userSpaceOnUse' x1='100' y1='33' x2='100' y2='-3'%3E%3Cstop offset='0' stop-color='%23000' stop-opacity='0'/%3E%3Cstop offset='1' stop-color='%23000' stop-opacity='1'/%3E%3C/linearGradient%3E%3ClinearGradient id='b' gradientUnits='userSpaceOnUse' x1='100' y1='135' x2='100' y2='97'%3E%3Cstop offset='0' stop-color='%23000' stop-opacity='0'/%3E%3Cstop offset='1' stop-color='%23000' stop-opacity='1'/%3E%3C/linearGradient%3E%3C/defs%3E%3Cg fill='%23292929' fill-opacity='0.6'%3E%3Crect x='100' width='100' height='100'/%3E%3Crect y='100' width='100' height='100'/%3E%3C/g%3E%3Cg fill-opacity='0.5'%3E%3Cpolygon fill='url(%23a)' points='100 30 0 0 200 0'/%3E%3Cpolygon fill='url(%23b)' points='100 100 0 130 0 100 200 100 200 130'/%3E%3C/g%3E%3C/svg%3E");
+    align-items: center; 
+    text-align: center;
+}
+.contactme .phnnumber{
+    margin-top: 15px;
+    color: blue;
+    font-size: 3em;
+    font-weight:bold;
+    text-align: center; 
+}
+.contactme .phonenmbr{
+    color: rgb(255, 255, 255);
+    font-size: 2em;
+    font-weight:bold;
+    transition: 0.5s ease;
+}
+.contactme .phonenmbr:hover{
+    transform: scale(1.1);
+}
+.CV{
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 200 200'%3E%3Cdefs%3E%3ClinearGradient id='a' gradientUnits='userSpaceOnUse' x1='100' y1='33' x2='100' y2='-3'%3E%3Cstop offset='0' stop-color='%23000' stop-opacity='0'/%3E%3Cstop offset='1' stop-color='%23000' stop-opacity='1'/%3E%3C/linearGradient%3E%3ClinearGradient id='b' gradientUnits='userSpaceOnUse' x1='100' y1='135' x2='100' y2='97'%3E%3Cstop offset='0' stop-color='%23000' stop-opacity='0'/%3E%3Cstop offset='1' stop-color='%23000' stop-opacity='1'/%3E%3C/linearGradient%3E%3C/defs%3E%3Cg fill='%23292929' fill-opacity='0.6'%3E%3Crect x='100' width='100' height='100'/%3E%3Crect y='100' width='100' height='100'/%3E%3C/g%3E%3Cg fill-opacity='0.5'%3E%3Cpolygon fill='url(%23a)' points='100 30 0 0 200 0'/%3E%3Cpolygon fill='url(%23b)' points='100 100 0 130 0 100 200 100 200 130'/%3E%3C/g%3E%3C/svg%3E");
+    background-color: #2F2F2F;
+}
+.CV p{
+    margin-top: 15px;
+    color: blue;
+    font-size: 3em;
+    font-weight:bold;
+    text-align: center;
+}
+.CV p a{
+    text-decoration: none;
+    color: azure;
+}
